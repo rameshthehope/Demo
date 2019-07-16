@@ -12,8 +12,7 @@ public class SampleController {
     @RequestMapping(value = "/calculator", method = RequestMethod.GET)
     public Double mathOperations(@RequestParam(value="operand1", required=false)  String operand1,
                            @RequestParam(value = "operand2", required = false) String operand2,
-                           @RequestParam(value = "operator", required = false) String operator,
-                           Model model) {
+                           @RequestParam(value = "operator", required = false) String operator) {
         Double result = 0.0;
         if (operand1 != null && operand2 != null && operator != null) {
             switch (operator) {
