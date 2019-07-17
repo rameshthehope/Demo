@@ -50,7 +50,7 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>ip-172-31-42-59.ap-south-1.compute.internal-snapshots</name>
-        <url>http://13.127.18.163:8081/artifactory/hcsdemo</url>
+        <url>http://13.127.18.163:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>
 </distributionManagement> 
 
