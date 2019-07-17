@@ -46,13 +46,13 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<distributionManagement>
+	<!-- <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
         <name>ip-172-31-42-59.ap-south-1.compute.internal-snapshots</name>
-        <url>http://13.127.18.163:8081/artifactory/libs-snapshot-local</url>
+        <url>http://13.127.18.163:8081/artifactory/hcsdemo</url>
     </snapshotRepository>
-</distributionManagement>
+</distributionManagement> -->
 
 	<build>
 		<plugins>
