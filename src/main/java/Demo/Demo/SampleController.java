@@ -35,7 +35,7 @@ public class SampleController {
                 default:
                     break;
 
-            }
+
         }
         return result;
     }
