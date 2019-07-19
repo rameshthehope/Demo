@@ -19,18 +19,18 @@ public class SampleController {
                 case "add":
                     double resultadd = Double.parseDouble(operand1) + Double.parseDouble(operand2);
                     result = resultadd;
-                break;
+                    break;
                 case "sub":
-                   double resultsub = Double.parseDouble(operand1) - Double.parseDouble(operand2);
-                   result=resultsub;
+                    double resultsub = Double.parseDouble(operand1) - Double.parseDouble(operand2);
+                    result = resultsub;
                     break;
                 case "multiply":
-                   double resultmul = Double.parseDouble(operand1) * Double.parseDouble(operand2);
-                   result= resultmul;
+                    double resultmul = Double.parseDouble(operand1) * Double.parseDouble(operand2);
+                    result = resultmul;
                     break;
                 case "div":
-                   double resultdiv = Double.parseDouble(operand1) / Double.parseDouble(operand2);
-                   result = resultdiv;
+                    double resultdiv = Double.parseDouble(operand1) / Double.parseDouble(operand2);
+                    result = resultdiv;
                     break;
                 default:
                     break;
