@@ -1,0 +1,6 @@
+---
+application:
+- name: Demo
+  instances: 1
+  memory: 800m
+  path: target/Demo.war
