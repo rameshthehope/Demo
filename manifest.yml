@@ -3,4 +3,4 @@ application:
 - name: Demo
   instances: 1
   memory: 800m
-  path:  opt/tomcat/.jenkins/workspace/Demo/target/Demo.war
+  path:  /opt/tomcat/.jenkins/workspace/Demo-0.0.1-SNAPSHOT.jar
