@@ -54,13 +54,7 @@
         <url>http://13.235.105.183:8081/artifactory/libs-release-local</url>
     </repository>
 </distributionManagement>
-	<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>ip-172-31-42-59.ap-south-1.compute.internal-releases</name>
-        <url>http://13.235.105.183:8081/artifactory/libs-snapshot-local/</url>
-    </repository>
-</distributionManagement>
+	
 
 	<build>
 		<plugins>
