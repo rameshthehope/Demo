@@ -39,9 +39,4 @@ public class SampleController {
         }
         return result;
     }
-    
-    @RequestMapping(value = "/testOp", method = RequestMethod.GET)
-    public String testOperations() {
-        return "test";
-    }
 }
