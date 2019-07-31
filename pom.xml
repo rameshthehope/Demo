@@ -91,11 +91,7 @@
 				</goals>
 			</execution>
 			<!-- attached to Maven test phase -->
-			
-			
-			
-			
-			
+			<!-- attached to Maven test phase -->
 			
 			
 			<execution>
