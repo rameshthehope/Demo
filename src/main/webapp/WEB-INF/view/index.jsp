@@ -5,7 +5,7 @@
 <title>Untitled Document</title>
 <style>
 	body {
-	background:gray;
+	background:yellow;
 	font-family: Tahoma;
 }
 
