@@ -6,6 +6,12 @@ pipeline{
 	     git credentialsId: '5ab91d62-3c84-4e03-b8a6-f373abe54d4a', url: 'https://github.com/rameshthehope/Demo.git'
 		 }
 	   }
+	 stage("Maven_Build"){
+	    steps{
+		    sh "mvn clean package"
+		}
 	}
 
+  }
+  
   }
