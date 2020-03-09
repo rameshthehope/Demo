@@ -1,5 +1,9 @@
 pipeline{
    agent any
+   
+   environment{
+      PATH = "/var/jenkins_home/apache-maven-3.6.3/bin:$PATH"
+	  }
    stages{
      stage("Git_Checkout"){
 	   steps{
