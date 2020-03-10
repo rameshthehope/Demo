@@ -17,7 +17,7 @@ pipeline{
 	 }
 	stage("Upload to artifactory"){
 	    steps{
-		    sh '''docker exec -it 2e897f071958 bash
+		    sh '''/usr/bin/docker exec -it 2e897f071958 bash
 		    cd /var/jenkins_home/workspace/Jfrog_Deploy/target/
 		    curl -uadmin:APBNkhRt5sQ2riSCznZoVguH7oX -T Demo-0.0.1-SNAPSHOT.war "http://13.127.192.232:8081/artifactory/generic-local/Demo-0.0.1-SNAPSHOT.war"'''
 		}
