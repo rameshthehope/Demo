@@ -14,6 +14,7 @@ pipeline{
 	    steps{
 		    sh "mvn clean package"
 		}
+	 }
 	stage("Upload to artifactory"){
 	    steps{
 		    sh '''docker exec -it 2e897f071958 bash
