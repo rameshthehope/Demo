@@ -5,7 +5,15 @@ pipeline{
 	  steps {
        sh label: '', script: 'curl -uadmin:APBNkhRt5sQ2riSCznZoVguH7oX -O "http://13.127.192.232:8081/artifactory/generic-local/Demo-0.0.1-SNAPSHOT.war"'
        }
+	   stage("PCF_PUSH") {
+	     steps {
+		   sh label: '', script: '''cf login -a https://api.run.pivotal.io -u ravi.shankar2@harman.com -p Wrong@123 -o ravi.shankar.org -s myprod
+           cf push Demoapp -p ./Demo-0.0.1-SNAPSHOT.war --random-route'''
 	 }
+	 
+	 }
+ }
+ 
  }
  
 }
