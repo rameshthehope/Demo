@@ -18,7 +18,7 @@ pipeline{
 	stage("Upload to artifactory"){
 	    steps{
 		    sh '''cd /var/jenkins_home/workspace/Jfrog_Deploy/target/
-		    curl -uadmin:APBNkhRt5sQ2riSCznZoVguH7oX -T Demo-0.0.1-SNAPSHOT.war "http://13.127.192.232:8081/artifactory/generic-local/Demo-0.0.1-SNAPSHOT.war"'''
+		    curl -uadmin:APBNkhRt5sQ2riSCznZoVguH7oX -T Demo-0.0.1-SNAPSHOT.war "http://13.234.111.70:8081/artifactory/generic-local/Demo-0.0.1-SNAPSHOT.war"'''
 		}
 	}
 
