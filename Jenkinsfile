@@ -14,5 +14,13 @@ pipeline{
 	   sh "mvn clean package"
 	   }
 	 }
+	stage("Uploading package to Jfrog"){
+	  steps{
+	    sh '''cd /var/jenkins_home/workspace/Demo_Merrill/target/
+		curl -uadmin:password -T Demo-0.0.1-SNAPSHOT.war "http://192.168.33.11:8081/artifactory/libs-release/Demo-0.0.1-SNAPSHOT.war"'''
   }
+}
+
+}
+
 }
