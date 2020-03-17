@@ -3,7 +3,7 @@ pipeline{
    stages {
     stage ("Downloading package from Jfrog") {
 	  steps {
-       sh label: '', script: 'curl -uadmin:APBNkhRt5sQ2riSCznZoVguH7oX -O "http://13.234.111.70:8081/artifactory/generic-local/Demo-0.0.1-SNAPSHOT.war"'
+	   sh label: '', script: 'curl -uadmin:password -O "http://192.168.33.11:8081/artifactory/ext-release-local/Demo-0.0.1-SNAPSHOT.war"'
        }
      }
      stage ("PCF_PUSH") {
@@ -16,4 +16,3 @@ pipeline{
  }
  
  }
- 
